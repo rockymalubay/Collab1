@@ -40,9 +40,10 @@ body {
     cursor: pointer;
     color: white;
     border-bottom: none;
-    transition: linear;
 }
-
+.menu:hover {
+    border-bottom: 2px solid white;
+}
 #icons{
     flex: .5;
     justify-content: center;
@@ -50,11 +51,14 @@ body {
     display: flex;
 }
 
-.material-icons {
+.material-icons{
     color: white;
     flex: 1;
     font-size: 200%;
     cursor: pointer;
 }
 
+.material-icons:hover{
+    font-size: 250%;
+}
 
