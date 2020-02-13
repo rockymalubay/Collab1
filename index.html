@@ -3,16 +3,36 @@
     <head>
         <meta charset="UTF-8">
         <title>Collab1</title>
+
         <link rel="stylesheet" href="footer.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" 
+      rel="stylesheet">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="avatar.css">
+        <!-- Font Library Link  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <!-- Enter Your links to css-->
     </head>
     <body> 
         <header id="header">
-            <!-- Header Start -->
-
-
-            <!-- Header End -->
-        </header>
+            <div id="logo"> <img src=""> <p> Collab Juan </p> </div>
+            <ul id="menubar">
+                <li class="menu" id="home" onmouseover="Select()" onmouseout="SelectOff()">Home</li>
+                <li class="menu" id="about" onmouseover="Select()" onmouseout="SelectOff()">About Us</li>
+                <li class="menu" id="blog" onmouseover="Select()" onmouseout="SelectOff()">Blog</li>
+                <li class="menu" id="help" onmouseover="Select()" onmouseout="SelectOff()">Help</li>
+            </ul>
+            <div id="icons">                
+                <i class="material-icons">
+                account_circle
+                </i>
+                <i class="material-icons">
+                settings
+                </i> 
+            </div>
         <div id="settings"> 
             <!-- Settings Start-->
 
@@ -20,8 +40,18 @@
         </div>
         <div id="avatar"> 
             <!-- Avatar Start-->
+            
+            <div id="avatarbox"><div id="pullouticon" onclick="pulloutmenu()"> <i class="material-icons">
+                account_circle
+                </i> </div>
+                    <div id="avatarcharacter"> <img  id="imgsize" src="sailormoon.jpg"> </div> 
+                    <div id="avatarname"> RockyMalubay
+                        <div id="avatarsubtext"> <u> 192 posts </u> <br> <p> Status: <b id="onlinetxt">Online</b> </p> </div>
+        
 
-
+                </div>
+            </div>
+           
             <!-- Avatar End-->
         </div>
         <div id="footer"> 
@@ -37,6 +67,10 @@
 
         <!-- Enter your js scripts here-->
 
+
         <script src="footer.js"></script>
+
+        <script src="avatar.js"></script>
+
     </body>
 </html>
