@@ -1,0 +1,10 @@
+#footer {
+    background-color: magenta;
+    width: 100vw;
+    height: 15vh;
+    position:absolute;
+    bottom:0px;
+}
+.footer-items {
+    background-color:black;
+}

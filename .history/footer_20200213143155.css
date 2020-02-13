@@ -1,5 +1,5 @@
 #footer {
-    background-color:peachpuff;
+    background-color: magenta;
     width: 100vw;
     height: 15vh;
     position:absolute;
@@ -8,15 +8,12 @@
 .footer-items {
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-around;
+    margin:10px;
 }
 
 .item {
-    margin:10px;
-    
-}
-
-img {
     width:100px;
     height:100px;
+    background-color:grey;
+    margin: 10px;
 }
