@@ -1,0 +1,48 @@
+#settings{
+    position: absolute;
+    right: -150px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 15px;
+    padding-right: 0;
+    margin: 10px;
+    margin-bottom:0;
+    border-radius: 10px;
+    transition: left 1s;
+}
+#logo{
+    display: flex;
+    background-color: brown;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#logo>img{
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+#logo>p{
+    color: cadetblue;
+    font-style: inherit;
+    font-size: 19px;
+}
+#list{
+    background-color: lightslategrey;
+    color: linen;
+    font-style: initial;
+    padding: 10px;
+    border-radius: 5px;
+}
+#list>li{
+    border-radius: 5px;
+    padding-left: 3px;
+}
+#list>li:hover{
+    background-color: lemonchiffon;
+    color: lightcoral;
+}

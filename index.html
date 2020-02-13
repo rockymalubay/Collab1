@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
         <!-- Enter Your links to css-->
+        <link rel="stylesheet" href="settings.css">
     </head>
     <body> 
         <header id="header">
@@ -34,9 +35,39 @@
                 </i> 
             </div>
         </header>
-        <div id="settings"> 
+        <div id="settings" onclick="menuOpen()"> 
             <!-- Settings Start-->
-
+            <div id="logo">
+                <img src="https://img.icons8.com/flat_round/64/000000/settings--v1.png">
+                <p>Settings</p>
+            </div>
+            <div>
+                <ul id="list">
+                    <li>
+                        General
+                    </li>
+                    <br>
+                    <li>
+                        Website Theme
+                    </li>
+                    <br>
+                    <li>
+                        Localization
+                    </li>
+                    <br>
+                    <li>
+                        Integration
+                    </li>
+                    <br>
+                    <li>
+                        Advanced Settings
+                    </li>
+                    <br>
+                    <li>
+                        Search Settings
+                    </li>
+                </ul>
+            </div>
             <!-- Settings end-->
         </div>
         <div id="avatar"> 
@@ -73,5 +104,6 @@
 
         <script src="avatar.js"></script>
         <script src="header.js"></script>
+        <script src="settings.js"></script>
     </body>
 </html>
