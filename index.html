@@ -3,16 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Collab1</title>
+
+        <link rel="stylesheet" href="footer.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" 
+      rel="stylesheet">
         <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="avatar.css">
+        <!-- Font Library Link  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <!-- Enter Your links to css-->
         <link rel="stylesheet" href="settings.css">
     </head>
     <body> 
         <header id="header">
-            <!-- Header Start -->
-
-
-            <!-- Header End -->
+            <div id="logo"><p> Collab Juan </p> </div>
+            <ul id="menubar">
+                <li class="menu">Home</li>
+                <li class="menu">About Us</li>
+                <li class="menu">Blog</li>
+                <li class="menu">Help</li>
+            </ul>
+            <div id="icons">                
+                <i class="material-icons --menu">
+                account_circle
+                </i>
+                <i class="material-icons --menu">
+                settings
+                </i> 
+            </div>
         </header>
         <div id="settings" onclick="menuOpen()"> 
             <!-- Settings Start-->
@@ -51,19 +72,37 @@
         </div>
         <div id="avatar"> 
             <!-- Avatar Start-->
+            
+            <div id="avatarbox"><div id="pullouticon" onclick="pulloutmenu()"> <i class="material-icons">
+                account_circle
+                </i> </div>
+                    <div id="avatarcharacter"> <img  id="imgsize" src="sailormoon.jpg"> </div> 
+                    <div id="avatarname"> RockyMalubay
+                        <div id="avatarsubtext"> <u> 192 posts </u> <br> <p> Status: <b id="onlinetxt">Online</b> </p> </div>
+        
 
-
+                </div>
+            </div>
+           
             <!-- Avatar End-->
         </div>
-        <footer id="footer "> 
+        <div id="footer"> 
             <!-- Footer Starts -->
-
+            <div class="footer-items">
+                <div class="item" onclick="insta()"><img src=imgs/insta1.png></div>
+                <div class="item" onclick="twat()"><img src=imgs/twitter.png></div>
+                <div class="item" onclick="fab()"><img src=imgs/fb.png></div>
+            </div>
             <!-- Footer Ends-->
-        </footer>
+        </div>
 
 
         <!-- Enter your js scripts here-->
 
+
+        <script src="footer.js"></script>
+
+        <script src="avatar.js"></script>
         <script src="header.js"></script>
         <script src="settings.js"></script>
     </body>
