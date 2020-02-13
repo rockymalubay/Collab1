@@ -39,8 +39,11 @@ body {
     font-size: 120%;
     cursor: pointer;
     color: white;
-    border-bottom: none;
-    transition: linear;
+}
+
+.menu:hover {
+    border-bottom: 2px solid white;
+    transition: ease-in 3s;
 }
 
 #icons{

@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+#header {
+    width: 100vw;
+    height: 10%; 
+    position: fixed;
+    background-color: rgb(9, 136, 179);
+}
+

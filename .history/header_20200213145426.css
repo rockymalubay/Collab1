@@ -39,8 +39,6 @@ body {
     font-size: 120%;
     cursor: pointer;
     color: white;
-    border-bottom: none;
-    transition: linear;
 }
 
 #icons{

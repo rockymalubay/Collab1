@@ -39,8 +39,21 @@ body {
     font-size: 120%;
     cursor: pointer;
     color: white;
+}
+#home{
     border-bottom: none;
-    transition: linear;
+}
+
+#about {
+    border-bottom: none;
+}
+
+#blog{
+    border-bottom: none;
+}
+
+#help {
+    border-bottom: none;
 }
 
 #icons{
