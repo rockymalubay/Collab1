@@ -40,7 +40,6 @@ body {
     cursor: pointer;
     color: white;
     border-bottom: none;
-    transition: linear;
 }
 
 #icons{

@@ -4,7 +4,6 @@ body {
 #header {
     width: 100vw;
     height: 10vh; 
-    top: 0;
     position: fixed;
     display: flex; 
     flex-direction: row;
@@ -23,7 +22,6 @@ body {
     left: 50px;
     position: fixed; 
     cursor: pointer;
-    color: white;
 }
 #menubar{
     display: flex; 
@@ -38,9 +36,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 120%;
     cursor: pointer;
-    color: white;
-    border-bottom: none;
-    transition: linear;
 }
 
 #icons{
@@ -53,8 +48,7 @@ body {
 .material-icons {
     color: white;
     flex: 1;
-    font-size: 200%;
-    cursor: pointer;
+    font-size: 20px;;
 }
 
 

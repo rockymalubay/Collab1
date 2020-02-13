@@ -4,7 +4,6 @@ body {
 #header {
     width: 100vw;
     height: 10vh; 
-    top: 0;
     position: fixed;
     display: flex; 
     flex-direction: row;
@@ -39,8 +38,6 @@ body {
     font-size: 120%;
     cursor: pointer;
     color: white;
-    border-bottom: none;
-    transition: linear;
 }
 
 #icons{
@@ -54,7 +51,6 @@ body {
     color: white;
     flex: 1;
     font-size: 200%;
-    cursor: pointer;
 }
 
 

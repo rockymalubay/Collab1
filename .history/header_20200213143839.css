@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+#header {
+    width: 100vw;
+    height: 10vh; 
+    position: fixed;
+    display: flex; 
+    flex-direction: row;
+    background-color: rgb(9, 136, 179);
+}
+#logo{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+#menubar{
+    display: flex; 
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    flex: 1;
+    list-style: none;
+}
+
+
