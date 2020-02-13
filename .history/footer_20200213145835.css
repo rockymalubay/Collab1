@@ -15,7 +15,7 @@
     margin:10px;
 }
 
-img {
+img:hover {
     width:100px;
     height:100px;
 }
