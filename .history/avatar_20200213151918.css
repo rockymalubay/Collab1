@@ -6,7 +6,7 @@ body {
     display: flex;
 }
 
-#pullouticon i{
+#pullouticon {
     top: 130px;
     left: 260px;
     position: relative;
